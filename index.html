@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HZ.DEV</title>
+<meta name="description" content="Freelance web developer building fast, modern, responsive websites for startups and growing businesses.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="site-header" id="top">
+  <nav class="navbar" aria-label="Main navigation">
+    <a href="#top" class="nav-logo">
+      <img src="images/logo.png" alt="Mian Hanzla logo" class="logo-img">
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#contact" class="nav-link nav-cta">Hire Me</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Freelance Web Developer</p>
+        <h1 class="hero-heading">
+          I build websites that turn visitors into customers.
+        </h1>
+        <p class="hero-sub">
+          I help startups and growing businesses build fast, modern, responsive websites that look exceptional and support business growth.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Let's Discuss Your Project</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="grid-art">
+          <div class="grid-art-node node-1"></div>
+          <div class="grid-art-node node-2"></div>
+          <div class="grid-art-node node-3"></div>
+          <div class="grid-art-line line-1"></div>
+          <div class="grid-art-line line-2"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-text">
+        <h2 class="section-heading">About</h2>
+        <p>
+          I'm a freelance web developer focused on building modern digital experiences that are fast, responsive, and genuinely usable — not just visually appealing.
+        </p>
+        <p>
+          My work centers on translating a business's goals into a website that actually supports them: clear navigation, clean code, and design choices made with the end user in mind.
+        </p>
+      </div>
+
+      <ul class="about-highlights">
+        <li>
+          <h3>Responsive Development</h3>
+          <p>Websites that work smoothly across desktop, tablet, and mobile devices.</p>
+        </li>
+        <li>
+          <h3>Modern UI/UX Implementation</h3>
+          <p>Interfaces built with current design standards and real usability in mind.</p>
+        </li>
+        <li>
+          <h3>Landing Pages & Business Sites</h3>
+          <p>Focused pages built to communicate clearly and support business goals.</p>
+        </li>
+        <li>
+          <h3>E-commerce & Web Apps</h3>
+          <p>Custom functionality built around what a business and its customers need.</p>
+        </li>
+        <li>
+          <h3>Performance & Usability</h3>
+          <p>Clean, maintainable code written with loading speed and accessibility in mind.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section section-alt" id="services">
+    <div class="section-inner">
+      <h2 class="section-heading">Services</h2>
+      <p class="section-intro">What I can build for your business.</p>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <h3>Business Websites</h3>
+          <p>A professional website that gives your business credibility and makes it easy for customers to find what they need and get in touch.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Landing Pages</h3>
+          <p>A focused, high-converting page built around a single goal — ideal for campaigns, launches, or capturing leads.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>E-commerce Websites</h3>
+          <p>An online store that makes it simple for customers to browse, choose, and buy — built to support real sales.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Website Redesign</h3>
+          <p>A modern rebuild of an outdated site — improving how it looks, how it works, and how it performs on every device.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Custom Web Applications</h3>
+          <p>Tools and features built around a specific business process, beyond what a template or page builder can offer.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <h2 class="section-heading">Projects</h2>
+      <p class="section-intro">A preview of the kind of work I build. These are demo projects, created to showcase layout and interaction style.</p>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <span class="project-tag">Demo Project</span>
+          <img class="project-mock" src="https://picsum.photos/id/26/600/400" alt="E-commerce storefront demo preview">
+          <h3>Premium E-commerce Storefront</h3>
+          <p>A concept online store layout with product grid, clean navigation, and a streamlined checkout flow.</p>
+          <p class="project-tech">HTML · CSS · JavaScript</p>
+          <button class="project-view-btn" data-project="ecommerce">View Project</button>
+        </article>
+
+        <article class="project-card">
+          <span class="project-tag">Demo Project</span>
+          <img class="project-mock" src="https://picsum.photos/id/180/600/400" alt="SaaS landing page demo preview">
+          <h3>SaaS Product Landing Page</h3>
+          <p>A conversion-focused landing page concept for a software product, with a clear headline and call to action.</p>
+          <p class="project-tech">HTML · CSS · JavaScript</p>
+          <button class="project-view-btn" data-project="saas">View Project</button>
+        </article>
+
+        <article class="project-card">
+          <span class="project-tag">Demo Project</span>
+          <img class="project-mock" src="https://picsum.photos/id/119/600/400" alt="Business website demo preview">
+          <h3>Modern Business Website</h3>
+          <p>A multi-section business site concept covering services, about, and contact in a clean, organized layout.</p>
+          <p class="project-tech">HTML · CSS · JavaScript</p>
+          <button class="project-view-btn" data-project="business">View Project</button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <h2 class="section-heading">Skills</h2>
+      <ul class="skills-grid">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>UI Implementation</li>
+        <li>Git</li>
+        <li>GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-intro">
+        <h2 class="section-heading">Have a project in mind?</h2>
+        <p>Let's build something great. Tell me a bit about your project and I'll get back to you.</p>
+
+        <ul class="contact-links">
+          <li><a href="https://www.linkedin.com/in/mian-hanzla-a16014413" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/hanzla122" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xdeabogk" method="POST" novalidate>
+        <p class="form-note" id="formNote">
+          This form sends your message directly to my inbox.
+        </p>
+
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+          <span class="field-error" id="nameError"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+          <span class="field-error" id="emailError"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="projectType">Project Type</label>
+          <select id="projectType" name="projectType" required>
+            <option value="" disabled selected>Select a project type</option>
+            <option value="business">Business Website</option>
+            <option value="landing">Landing Page</option>
+            <option value="ecommerce">E-commerce Website</option>
+            <option value="redesign">Website Redesign</option>
+            <option value="webapp">Custom Web Application</option>
+            <option value="other">Other</option>
+          </select>
+          <span class="field-error" id="projectTypeError"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="details">Project Details</label>
+          <textarea id="details" name="details" rows="5" required></textarea>
+          <span class="field-error" id="detailsError"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+
+        <p class="form-success" id="formSuccess" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="#top" class="nav-logo">
+      <img src="images/logo.png" alt="Mian Hanzla logo" class="logo-img">
+    </a>
+    <ul class="footer-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="footer-copy">&copy; <span id="year"></span> Mian Hanzla. Built with HTML, CSS & JavaScript.</p>
+  </div>
+</footer>
+
+<!-- ============ PROJECT MODAL ============ -->
+<div class="project-modal" id="projectModal" aria-hidden="true">
+  <div class="project-modal-overlay" id="modalOverlay"></div>
+  <div class="project-modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close project preview">&times;</button>
+
+    <div class="modal-mock-wrap">
+      <div class="browser-chrome">
+        <span class="chrome-dot"></span>
+        <span class="chrome-dot"></span>
+        <span class="chrome-dot"></span>
+      </div>
+      <img class="modal-mock" id="modalMock" src="" alt="">
+    </div>
+
+    <span class="project-tag" id="modalTag">Demo Project</span>
+    <h3 id="modalTitle"></h3>
+    <p id="modalDescription"></p>
+    <p class="project-tech" id="modalTech"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
